@@ -1,5 +1,6 @@
 #include "Rendering.hpp"
 
+
 SDL_Rect wallSpriteClips[16];
 SDL_Rect holeSpriteClips[16];
 
@@ -111,19 +112,19 @@ void adamTexture::render(int x, int y, SDL_Renderer* renderer, float stretchFact
 
 void adamTexture::setBlendMode(SDL_BlendMode blendMode)
 {
-    SDL_SetTextureBlendMode(texture, blendMode);
+  SDL_SetTextureBlendMode(texture, blendMode);
 }
 
 void adamTexture::setAlphaLevel(Uint8 alpha)
 {
-    SDL_SetTextureAlphaMod(texture, alpha);
+  SDL_SetTextureAlphaMod(texture, alpha);
 }
 
 void adamTexture::replaceTexture(adamTexture* newTexture)
 {
-    texture = newTexture->texture;
-    tWidth = newTexture->tWidth;
-    tHeight = newTexture->tHeight;
+  texture = newTexture->texture;
+  tWidth = newTexture->tWidth;
+  tHeight = newTexture->tHeight;
 }
 
 
@@ -154,42 +155,43 @@ SDL_Renderer* GameWindow::getRenderer()
 //Initiates SDL, SDL_image, and SDL_TTF with a window
 SDL_Window* ainitWindow(std::string windowName, int SCREEN_WIDTH, int SCREEN_HEIGHT)
 {
-    SDL_Window* tempWindow = NULL;
-    if(SDL_Init(SDL_INIT_VIDEO) < 0)
-    {
-        printf("SDL initialization failed\n");
-        return NULL;
-    }
-    
 
-    //Set texture filtering to linear
-	if( !SDL_SetHint( SDL_HINT_RENDER_SCALE_QUALITY, "0" ) )
+  SDL_Window* tempWindow = NULL;
+  if(SDL_Init(SDL_INIT_VIDEO) < 0)
+  {
+    printf("SDL initialization failed\n");
+    return NULL;
+  }
+  
+
+  //Set texture filtering to linear
+	if(!SDL_SetHint(SDL_HINT_RENDER_SCALE_QUALITY, "0"))
 	{
-		printf( "Linear texture filtering not enabled!\n" );
+		printf("Linear texture filtering not enabled!\n");
 		return NULL;
 	}
 
-    tempWindow = SDL_CreateWindow(windowName.c_str(), SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, SCREEN_WIDTH, SCREEN_HEIGHT, SDL_WINDOW_SHOWN);
+  tempWindow = SDL_CreateWindow(windowName.c_str(), SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, SCREEN_WIDTH, SCREEN_HEIGHT, SDL_WINDOW_SHOWN);
 
-    if(tempWindow == NULL)
-    {
-        printf("Window initialization failed\n");
-        return NULL;
-    } 
-    int imgFlags = IMG_INIT_PNG;
+  if(tempWindow == NULL)
+  {
+    printf("Window initialization failed\n");
+    return NULL;
+  } 
+  int imgFlags = IMG_INIT_PNG;
 
-    if(!(IMG_Init(imgFlags) & imgFlags))
-    {
-        printf("SDL_image initialization failed\n");
-        return NULL;
-    }
+  if(!(IMG_Init(imgFlags) & imgFlags))
+  {
+    printf("SDL_image initialization failed\n");
+    return NULL;
+  }
 
-    //Initialize SDL_ttf
-    if(TTF_Init() == -1)
-    {
-        printf( "SDL_ttf initialization failed\n");
-        return NULL;
-    }
+  //Initialize SDL_ttf
+  if(TTF_Init() == -1)
+  {
+    printf( "SDL_ttf initialization failed\n");
+    return NULL;
+  }
     
 
     return tempWindow;

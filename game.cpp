@@ -127,10 +127,8 @@ void Level::renderLevel()
 
   game.backgroundTexture->render(0, 0, renderer, 5);
 
-  //std::cout << "RENDER OBSTACLE" << std::endl;
   for(int i=0; i<numObstacles; ++i)
   {
-    //printf("%d ", i);
     obstacleArray[i].renderEntity();
   }
 
@@ -139,11 +137,9 @@ void Level::renderLevel()
     entityArray[i].renderEntity();
   }
 
-  //std::cout << "\nRENDER PLAYER" << std::endl;
 
   game.player->renderStick();
   game.player->renderEntity(PLAYER);
-  //std::cout << "LEVEL RENDER" << std::endl;
 }
 
 bool Level::doCollisionAdjustment(SDL_Rect* collisionBox, SDL_Rect* collisionBox2, int obsType, int* velX, int* velY, int* framesInAir)
