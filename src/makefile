@@ -11,14 +11,14 @@ compiled := $(files:%.cpp=$(obj_dir)/%.o)
 ifeq ($(UNAME), Linux)
 
 CXX := g++
-CXXFLAGS := -w -lSDL2 -lSDL2_image
+CXXFLAGS := -w -O2 -lSDL2 -lSDL2_image
 
 endif
 
 ifeq ($(UNAME), Windows)
 
 CXX := g++
-CXXFLAGS := -static-libgcc -static-libstdc++ -mwindows -w -lSDL2 -lSDL2_image
+CXXFLAGS := -static-libgcc -static-libstdc++ -mwindows -w -O2 -lSDL2 -lSDL2_image
 
 endif
 
@@ -34,6 +34,11 @@ $(obj_dir)/%.o: %.cpp | $(obj_dir)
 $(obj_dir):
 	mkdir $(obj_dir)
 
+touch:
+	touch *.cpp
+
+
+
 
 ifeq ($(UNAME), Linux)
 
@@ -42,8 +47,6 @@ clean:
 	rm -rf $(obj_dir)
 
 endif
-
-
 ifeq ($(UNAME), Windows)
 
 clean:

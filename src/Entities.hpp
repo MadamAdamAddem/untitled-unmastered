@@ -43,7 +43,7 @@ public:
   ~Entity();
 
   void initEntity(adamTexture* newTexture, int xPos, int yPos, int w, int h);
-  void initGraphic(char path[], int xPos, int yPos, int w, int h, int spriteNum);
+  void initGraphic(const char path[], int xPos, int yPos, int w, int h, int spriteNum);
   bool checkCollision();
 
   void teleport(int xPos, int yPos) {x = xPos; y = yPos;}
@@ -86,7 +86,7 @@ public:
   ~Obstacle();
 
   void initObstacle(adamTexture* newTexture, int clipNum, int xPos, int yPos, int w, int h, float stretch = 1.0f, int obsType = RECTANGLE);
-  void initObstacle(char path[], int clipNum, int xPos, int yPos, int w, int h, float stretch = 1.0f, int obsType = RECTANGLE);
+  void initObstacle(const char path[], int clipNum, int xPos, int yPos, int w, int h, float stretch = 1.0f, int obsType = RECTANGLE);
 
   SDL_Rect getCollisionBox() {return collisionBox;}
   int getObstacleType() {return obType;}

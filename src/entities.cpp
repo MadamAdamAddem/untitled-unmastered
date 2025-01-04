@@ -51,7 +51,7 @@ void Entity::initEntity(adamTexture* newTexture, int xPos, int yPos, int w, int 
 
 }
 
-void Entity::initGraphic(char path[], int xPos, int yPos, int w, int h, int spriteNum)
+void Entity::initGraphic(const char path[], int xPos, int yPos, int w, int h, int spriteNum)
 {
   x = xPos;
   y = yPos;
@@ -401,7 +401,7 @@ void Obstacle::initObstacle(adamTexture* newTexture, int clipNum, int xPos, int 
   
 }
 
-void Obstacle::initObstacle(char path[], int clipNum, int xPos, int yPos, int w, int h, float stretch, int obsType)
+void Obstacle::initObstacle(const char path[], int clipNum, int xPos, int yPos, int w, int h, float stretch, int obsType)
 {
   texture = new adamTexture;
   texture->loadFromFile(path, gameWindow.getRenderer());

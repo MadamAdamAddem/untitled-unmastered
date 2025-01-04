@@ -27,7 +27,7 @@ void adamTexture::free()
   tHeight = 0;
 }
 
-bool adamTexture::loadFromFile(std::string path, SDL_Renderer* renderer)
+bool adamTexture::loadFromFile(const std::string path, SDL_Renderer* renderer)
 {
   free();
 

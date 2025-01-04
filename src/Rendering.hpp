@@ -36,7 +36,7 @@ public:
 
   void free();
 
-  bool loadFromFile(std::string path, SDL_Renderer* renderer);
+  bool loadFromFile(const std::string path, SDL_Renderer* renderer);
 
   //bool loadFromText(char* text, SDL_Color textColor, SDL_Renderer* renderer, TTF_Font* font);
 
