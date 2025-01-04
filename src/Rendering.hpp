@@ -15,7 +15,8 @@ public:
   GameWindow();
   ~GameWindow();
 
-  SDL_Renderer* getRenderer();
+  SDL_Renderer* getRenderer() {return renderer;}
+  SDL_Window* getWindow() {return window;}
 
 
 

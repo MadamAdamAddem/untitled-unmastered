@@ -14,9 +14,6 @@ int main()
 {
   Uint32 frameTime;
   SDL_Event e;
-
-  int i=0;
-
   
 
   while(handleEvents(&e))

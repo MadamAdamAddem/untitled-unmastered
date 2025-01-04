@@ -52,6 +52,8 @@ int determineFault(SDL_Rect* collisionBox, SDL_Rect* collisionBox2, int* velX, i
 
 Game::Game()
 {
+  printf("GAME OBJECT\n");
+
   //wall sprite clips initialization
   for(int i=0; i<16; ++i)
   { 
@@ -86,7 +88,14 @@ Game::Game()
 
 Game::~Game()
 {
-  aSDL_Close();
+  delete backgroundTexture;
+  delete wallTexture;
+  delete winTexture;
+  delete playerTexture;
+  delete holeTexture;
+  delete platformTexture;
+
+  level.clearLevel();
 }
 
 void Game::renderGame()
@@ -111,12 +120,7 @@ Level::Level()
 
 Level::~Level()
 {
-
-  /*
-  
-    Implement
-
-  */
+  clearLevel();
 }
 
 void Level::renderLevel()
@@ -459,7 +463,8 @@ Menu::Menu()
 
 Menu::~Menu()
 {
-
+  delete overlay;
+  delete menuTexture;
 }
 
 void Menu::renderMenu()

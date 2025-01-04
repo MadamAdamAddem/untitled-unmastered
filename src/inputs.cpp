@@ -8,8 +8,6 @@ bool handleEvents(SDL_Event* e)
   if(game.player->isPressedOn())
     SDL_CaptureMouse(SDL_TRUE);
 
-  int i=0;
-
 
   while(SDL_PollEvent(e) != 0)
   {

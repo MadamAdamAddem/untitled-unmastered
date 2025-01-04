@@ -145,11 +145,6 @@ GameWindow::~GameWindow()
   aSDL_Close();
 }
 
-SDL_Renderer* GameWindow::getRenderer()
-{
-  return renderer;
-}
-
 // ------------------------------------------------------------
 
 
@@ -201,20 +196,20 @@ SDL_Window* ainitWindow(std::string windowName, int SCREEN_WIDTH, int SCREEN_HEI
 //Initiates a renderer with vsync optional
 SDL_Renderer* ainitRenderer(SDL_Window* window, bool vsync)
 {
-    SDL_Renderer* tempRenderer = NULL;
-    if(vsync)
-        tempRenderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED | SDL_RENDERER_PRESENTVSYNC);
-    else
-        tempRenderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED);
+  SDL_Renderer* tempRenderer = NULL;
+  if(vsync)
+      tempRenderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED | SDL_RENDERER_PRESENTVSYNC);
+  else
+      tempRenderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED);
 
-    if(tempRenderer == NULL)
-    {
-        std::cout << "Renderer Error" << SDL_GetError() << std::endl;
-        return NULL;
-    }
+  if(tempRenderer == NULL)
+  {
+      std::cout << "Renderer Error" << SDL_GetError() << std::endl;
+      return NULL;
+  }
 
-    SDL_SetRenderDrawColor(tempRenderer, 0xFF, 0xFF, 0xFF, 0xFF);
-    return tempRenderer;
+  SDL_SetRenderDrawColor(tempRenderer, 0xFF, 0xFF, 0xFF, 0xFF);
+  return tempRenderer;
 }
 
 
@@ -257,12 +252,11 @@ void initAll(int SCREENW, int SCREENH, SDL_Window** window, SDL_Renderer** rende
 
 void aSDL_Close()
 {
-    /*
-        Implement
-    */
+  SDL_DestroyWindow(gameWindow.getWindow());
+  SDL_DestroyRenderer(gameWindow.getRenderer());
 
-    SDL_Quit();
-    IMG_Quit();
+  SDL_Quit();
+  IMG_Quit();
 }
 
 

@@ -88,7 +88,8 @@ Entity::Entity()
 
 Entity::~Entity()
 {
-
+  if(enType == GRAPHIC)
+    delete texture;
 }
 
 void Entity::renderEntity(int angle) 
