@@ -55,7 +55,7 @@ bool handleEvents(SDL_Event* e)
         return true;
       }
 
-      /* Cheats
+      
       if(e->key.keysym.sym == SDLK_y)
       {
         game.changeLevel(0);
@@ -86,7 +86,7 @@ bool handleEvents(SDL_Event* e)
       if(e->key.keysym.sym == SDLK_q)
       {
         game.player->TOGGLE_FREE_MOVE();
-      } */
+      } 
     }
 
     
@@ -94,16 +94,12 @@ bool handleEvents(SDL_Event* e)
   }
 
 
-  //readable i love it
+  //idk why this is hidden here when it handles most game logic lol
   if(game.getMenuState() == false && game.level.checkNextLevelCollision() == false)
   {
     if(game.player->returnIsDead() == false)
-    {
-
       game.player->updateDragging();
-    }
-      
-    
+
     game.player->doMovement();
     
   }

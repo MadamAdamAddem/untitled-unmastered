@@ -6,7 +6,6 @@
 #define SDL_MAIN_HANDLED
 #include <SDL2/SDL.h>
 #include <SDL2/SDL_image.h>
-#include <SDL2/SDL_ttf.h>
 
 
 
@@ -24,7 +23,7 @@ private:
 
   SDL_Window* window;
   SDL_Renderer* renderer;
-  TTF_Font* font;
+  //TTF_Font* font;
 };
 
 class adamTexture
@@ -39,9 +38,9 @@ public:
 
   bool loadFromFile(std::string path, SDL_Renderer* renderer);
 
-  bool loadFromText(char* text, SDL_Color textColor, SDL_Renderer* renderer, TTF_Font* font);
+  //bool loadFromText(char* text, SDL_Color textColor, SDL_Renderer* renderer, TTF_Font* font);
 
-  void render(int x, int y, SDL_Renderer* renderer, float stretchFactor = 1, SDL_Rect* clip = NULL, double angle = 0.0, SDL_Point center = {0,0}, SDL_Color colorMod = {0,0,0,0});
+  void render(int x, int y, SDL_Renderer* renderer, double stretchFactor = 1, SDL_Rect* clip = NULL, double angle = 0.0, SDL_Point center = {0,0}, SDL_Color colorMod = {0,0,0,0});
 
   void setBlendMode(SDL_BlendMode blendMode);
 
@@ -62,7 +61,8 @@ private:
 };
 
 void aSDL_Close();
-void initAll(int SCREENW, int SCREENH, SDL_Window** window, SDL_Renderer** renderer, TTF_Font** font);
+void initAll(int SCREENW, int SCREENH, SDL_Window** window, SDL_Renderer** renderer);
+//void initAll(int SCREENW, int SCREENH, SDL_Window** window, SDL_Renderer** renderer, TTF_Font** font);
 SDL_Renderer* ainitRenderer(SDL_Window* window, bool vsync = NULL);
 SDL_Window* ainitWindow(std::string windowName, int SCREEN_WIDTH, int SCREEN_HEIGHT);
 

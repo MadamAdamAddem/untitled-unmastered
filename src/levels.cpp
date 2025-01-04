@@ -66,43 +66,43 @@ void Level::loadFirst()
   obstacleArray = new Obstacle[nObs];
 
   //bottom row
-  obstacleArray[0].initObstacle(game.wallTexture, 12, 200, 500, 35, 35, 1.4);
-  obstacleArray[1].initObstacle(game.wallTexture, 1, 235, 500, 35, 35, 1.4);
-  obstacleArray[2].initObstacle(game.wallTexture, 1, 270, 500, 35, 35, 1.4);
-  obstacleArray[3].initObstacle(game.wallTexture, 1, 305, 500, 35, 35, 1.4);
-  obstacleArray[4].initObstacle(game.wallTexture, 1, 340, 500, 35, 35, 1.4);
-  obstacleArray[5].initObstacle(game.wallTexture, 1, 375, 500, 35, 35, 1.4);
-  obstacleArray[6].initObstacle(game.wallTexture, 1, 410, 500, 35, 35, 1.4);
-  obstacleArray[7].initObstacle(game.wallTexture, 1, 445, 500, 35, 35, 1.4);
-  obstacleArray[8].initObstacle(game.wallTexture, 1, 480, 500, 35, 35, 1.4);
-  obstacleArray[9].initObstacle(game.wallTexture, 1, 515, 500, 35, 35, 1.4);
-  obstacleArray[10].initObstacle(game.wallTexture, 1, 550, 500, 35, 35, 1.4);
-  obstacleArray[11].initObstacle(game.wallTexture, 13, 585, 500, 35, 35, 1.4);
+  obstacleArray[0].initObstacle(game.wallTexture, 12, 200, 500, 35, 35, 1.41);
+  obstacleArray[1].initObstacle(game.wallTexture, 1, 235, 500, 35, 35, 1.41);
+  obstacleArray[2].initObstacle(game.wallTexture, 1, 270, 500, 35, 35, 1.41);
+  obstacleArray[3].initObstacle(game.wallTexture, 1, 305, 500, 35, 35, 1.41);
+  obstacleArray[4].initObstacle(game.wallTexture, 1, 340, 500, 35, 35, 1.41);
+  obstacleArray[5].initObstacle(game.wallTexture, 1, 375, 500, 35, 35, 1.41);
+  obstacleArray[6].initObstacle(game.wallTexture, 1, 410, 500, 35, 35, 1.41);
+  obstacleArray[7].initObstacle(game.wallTexture, 1, 445, 500, 35, 35, 1.41);
+  obstacleArray[8].initObstacle(game.wallTexture, 1, 480, 500, 35, 35, 1.41);
+  obstacleArray[9].initObstacle(game.wallTexture, 1, 515, 500, 35, 35, 1.41);
+  obstacleArray[10].initObstacle(game.wallTexture, 1, 550, 500, 35, 35, 1.41);
+  obstacleArray[11].initObstacle(game.wallTexture, 13, 585, 500, 35, 35, 1.41);
 
 
   //right platform
-  obstacleArray[12].initObstacle(game.wallTexture, 12, 625, 415, 35, 35, 1.4);
-  obstacleArray[13].initObstacle(game.wallTexture, 1, 660, 415, 35, 35, 1.4);
-  obstacleArray[14].initObstacle(game.wallTexture, 1, 695, 415, 35, 35, 1.4);
-  obstacleArray[15].initObstacle(game.wallTexture, 13, 730, 415, 35, 35, 1.4);
+  obstacleArray[12].initObstacle(game.wallTexture, 12, 625, 415, 35, 35, 1.41);
+  obstacleArray[13].initObstacle(game.wallTexture, 1, 660, 415, 35, 35, 1.41);
+  obstacleArray[14].initObstacle(game.wallTexture, 1, 695, 415, 35, 35, 1.41);
+  obstacleArray[15].initObstacle(game.wallTexture, 13, 730, 415, 35, 35, 1.41);
 
-  obstacleArray[16].initObstacle(game.wallTexture, 12, 200, 330, 35, 35, 1.4);
-  obstacleArray[17].initObstacle(game.wallTexture, 1, 235, 330, 35, 35, 1.4);
-  obstacleArray[18].initObstacle(game.wallTexture, 1, 270, 330, 35, 35, 1.4);
-  obstacleArray[19].initObstacle(game.wallTexture, 1, 305, 330, 35, 35, 1.4);
-  obstacleArray[20].initObstacle(game.wallTexture, 1, 340, 330, 35, 35, 1.4);
-  obstacleArray[21].initObstacle(game.wallTexture, 1, 375, 330, 35, 35, 1.4);
-  obstacleArray[22].initObstacle(game.wallTexture, 1, 410, 330, 35, 35, 1.4);
-  obstacleArray[23].initObstacle(game.wallTexture, 1, 445, 330, 35, 35, 1.4);
-  obstacleArray[24].initObstacle(game.wallTexture, 1, 480, 330, 35, 35, 1.4);
-  obstacleArray[25].initObstacle(game.wallTexture, 1, 515, 330, 35, 35, 1.4);
-  obstacleArray[26].initObstacle(game.wallTexture, 1, 550, 330, 35, 35, 1.4);
-  obstacleArray[27].initObstacle(game.wallTexture, 13, 585, 330, 35, 35, 1.4);
+  obstacleArray[16].initObstacle(game.wallTexture, 12, 200, 330, 35, 35, 1.41);
+  obstacleArray[17].initObstacle(game.wallTexture, 1, 235, 330, 35, 35, 1.41);
+  obstacleArray[18].initObstacle(game.wallTexture, 1, 270, 330, 35, 35, 1.41);
+  obstacleArray[19].initObstacle(game.wallTexture, 1, 305, 330, 35, 35, 1.41);
+  obstacleArray[20].initObstacle(game.wallTexture, 1, 340, 330, 35, 35, 1.41);
+  obstacleArray[21].initObstacle(game.wallTexture, 1, 375, 330, 35, 35, 1.41);
+  obstacleArray[22].initObstacle(game.wallTexture, 1, 410, 330, 35, 35, 1.41);
+  obstacleArray[23].initObstacle(game.wallTexture, 1, 445, 330, 35, 35, 1.41);
+  obstacleArray[24].initObstacle(game.wallTexture, 1, 480, 330, 35, 35, 1.41);
+  obstacleArray[25].initObstacle(game.wallTexture, 1, 515, 330, 35, 35, 1.41);
+  obstacleArray[26].initObstacle(game.wallTexture, 1, 550, 330, 35, 35, 1.41);
+  obstacleArray[27].initObstacle(game.wallTexture, 13, 585, 330, 35, 35, 1.41);
 
-  obstacleArray[28].initObstacle(game.wallTexture, 12, 35, 245, 35, 35, 1.4);
-  obstacleArray[29].initObstacle(game.wallTexture, 1, 70, 245, 35, 35, 1.4);
-  obstacleArray[30].initObstacle(game.wallTexture, 1, 105, 245, 35, 35, 1.4);
-  obstacleArray[31].initObstacle(game.wallTexture, 13, 140, 245, 35, 35, 1.4);
+  obstacleArray[28].initObstacle(game.wallTexture, 12, 35, 245, 35, 35, 1.41);
+  obstacleArray[29].initObstacle(game.wallTexture, 1, 70, 245, 35, 35, 1.41);
+  obstacleArray[30].initObstacle(game.wallTexture, 1, 105, 245, 35, 35, 1.41);
+  obstacleArray[31].initObstacle(game.wallTexture, 13, 140, 245, 35, 35, 1.41);
   }
 
   numEntities = nEnt;
@@ -142,18 +142,18 @@ void Level::loadSecond()
   
 
   //mouth
-  obstacleArray[0].initObstacle(game.wallTexture, 12, 190, 510, 35, 35, 1.4);
-  obstacleArray[1].initObstacle(game.wallTexture, 1, 225, 510, 35, 35, 1.4);
-  obstacleArray[2].initObstacle(game.wallTexture, 1, 260, 510, 35, 35, 1.4);
-  obstacleArray[3].initObstacle(game.wallTexture, 1, 295, 510, 35, 35, 1.4);
-  obstacleArray[4].initObstacle(game.wallTexture, 1, 330, 510, 35, 35, 1.4);
-  obstacleArray[5].initObstacle(game.wallTexture, 1, 365, 510, 35, 35, 1.4);
-  obstacleArray[6].initObstacle(game.wallTexture, 1, 400, 510, 35, 35, 1.4);
-  obstacleArray[7].initObstacle(game.wallTexture, 1, 435, 510, 35, 35, 1.4);
-  obstacleArray[8].initObstacle(game.wallTexture, 1, 470, 510, 35, 35, 1.4);
-  obstacleArray[9].initObstacle(game.wallTexture, 1, 505, 510, 35, 35, 1.4);
-  obstacleArray[10].initObstacle(game.wallTexture, 1, 540, 510, 35, 35, 1.4);
-  obstacleArray[11].initObstacle(game.wallTexture, 13, 575, 510, 35, 35, 1.4);
+  obstacleArray[0].initObstacle(game.wallTexture, 12, 190, 510, 35, 35, 1.41);
+  obstacleArray[1].initObstacle(game.wallTexture, 1, 225, 510, 35, 35, 1.41);
+  obstacleArray[2].initObstacle(game.wallTexture, 1, 260, 510, 35, 35, 1.41);
+  obstacleArray[3].initObstacle(game.wallTexture, 1, 295, 510, 35, 35, 1.41);
+  obstacleArray[4].initObstacle(game.wallTexture, 1, 330, 510, 35, 35, 1.41);
+  obstacleArray[5].initObstacle(game.wallTexture, 1, 365, 510, 35, 35, 1.41);
+  obstacleArray[6].initObstacle(game.wallTexture, 1, 400, 510, 35, 35, 1.41);
+  obstacleArray[7].initObstacle(game.wallTexture, 1, 435, 510, 35, 35, 1.41);
+  obstacleArray[8].initObstacle(game.wallTexture, 1, 470, 510, 35, 35, 1.41);
+  obstacleArray[9].initObstacle(game.wallTexture, 1, 505, 510, 35, 35, 1.41);
+  obstacleArray[10].initObstacle(game.wallTexture, 1, 540, 510, 35, 35, 1.41);
+  obstacleArray[11].initObstacle(game.wallTexture, 13, 575, 510, 35, 35, 1.41);
 
 
   //nose holes
@@ -161,27 +161,27 @@ void Level::loadSecond()
   obstacleArray[13].initObstacle(game.holeTexture, 10, 445, 450, 24, 60, 3, DEATH_HOLE_R);
 
   //nose
-  obstacleArray[14].initObstacle(game.wallTexture, 12, 330, 420, 35, 35, 1.4);
-  obstacleArray[15].initObstacle(game.wallTexture, 1, 365, 420, 35, 35, 1.4);
-  obstacleArray[16].initObstacle(game.wallTexture, 1, 400, 420, 35, 35, 1.4);
-  obstacleArray[17].initObstacle(game.wallTexture, 13, 435, 420, 35, 35, 1.4);
+  obstacleArray[14].initObstacle(game.wallTexture, 12, 330, 420, 35, 35, 1.41);
+  obstacleArray[15].initObstacle(game.wallTexture, 1, 365, 420, 35, 35, 1.41);
+  obstacleArray[16].initObstacle(game.wallTexture, 1, 400, 420, 35, 35, 1.41);
+  obstacleArray[17].initObstacle(game.wallTexture, 13, 435, 420, 35, 35, 1.41);
 
 
   //Left eye
-  obstacleArray[18].initObstacle(game.wallTexture, 12, 190, 325, 35, 35, 1.4);
-  obstacleArray[19].initObstacle(game.wallTexture, 1, 225, 325, 35, 35, 1.4);
-  obstacleArray[20].initObstacle(game.wallTexture, 1, 260, 325, 35, 35, 1.4);
-  obstacleArray[21].initObstacle(game.wallTexture, 13, 295, 325, 35, 35, 1.4);
+  obstacleArray[18].initObstacle(game.wallTexture, 12, 190, 325, 35, 35, 1.41);
+  obstacleArray[19].initObstacle(game.wallTexture, 1, 225, 325, 35, 35, 1.41);
+  obstacleArray[20].initObstacle(game.wallTexture, 1, 260, 325, 35, 35, 1.41);
+  obstacleArray[21].initObstacle(game.wallTexture, 13, 295, 325, 35, 35, 1.41);
 
   //Right eye
-  obstacleArray[22].initObstacle(game.wallTexture, 12, 470, 330, 35, 35, 1.4);
-  obstacleArray[23].initObstacle(game.wallTexture, 1, 505, 330, 35, 35, 1.4);
-  obstacleArray[24].initObstacle(game.wallTexture, 1, 540, 330, 35, 35, 1.4);
-  obstacleArray[25].initObstacle(game.wallTexture, 13, 575, 330, 35, 35, 1.4);
+  obstacleArray[22].initObstacle(game.wallTexture, 12, 470, 330, 35, 35, 1.41);
+  obstacleArray[23].initObstacle(game.wallTexture, 1, 505, 330, 35, 35, 1.41);
+  obstacleArray[24].initObstacle(game.wallTexture, 1, 540, 330, 35, 35, 1.41);
+  obstacleArray[25].initObstacle(game.wallTexture, 13, 575, 330, 35, 35, 1.41);
 
   //unibrow
-  obstacleArray[26].initObstacle(game.wallTexture, 12, 365, 250, 35, 35, 1.4);
-  obstacleArray[27].initObstacle(game.wallTexture, 13, 400, 250, 35, 35, 1.4);
+  obstacleArray[26].initObstacle(game.wallTexture, 12, 365, 250, 35, 35, 1.41);
+  obstacleArray[27].initObstacle(game.wallTexture, 13, 400, 250, 35, 35, 1.41);
 
 
   }
@@ -227,32 +227,32 @@ void Level::loadThird()
     obstacleArray[4].initObstacle(game.platformTexture, -1, 365, 490, 70, 17, 1.75F, ONE_WAY_LINE);
 
     //side platforms
-    obstacleArray[5].initObstacle(game.wallTexture, 12, 175, 345, 35, 35, 1.4F);
-    obstacleArray[6].initObstacle(game.wallTexture, 1, 210, 345, 35, 35, 1.4F);
-    obstacleArray[7].initObstacle(game.wallTexture, 13, 245, 345, 35, 35, 1.4F);
+    obstacleArray[5].initObstacle(game.wallTexture, 12, 175, 345, 35, 35, 1.41);
+    obstacleArray[6].initObstacle(game.wallTexture, 1, 210, 345, 35, 35, 1.41);
+    obstacleArray[7].initObstacle(game.wallTexture, 13, 245, 345, 35, 35, 1.41);
     
-    obstacleArray[8].initObstacle(game.wallTexture, 12, 520, 345, 35, 35, 1.4F);
-    obstacleArray[9].initObstacle(game.wallTexture, 1, 555, 345, 35, 35, 1.4F);
-    obstacleArray[10].initObstacle(game.wallTexture, 13, 590, 345, 35, 35, 1.4F);
+    obstacleArray[8].initObstacle(game.wallTexture, 12, 520, 345, 35, 35, 1.41);
+    obstacleArray[9].initObstacle(game.wallTexture, 1, 555, 345, 35, 35, 1.41);
+    obstacleArray[10].initObstacle(game.wallTexture, 13, 590, 345, 35, 35, 1.41);
 
     //high side platforms
-    obstacleArray[11].initObstacle(game.wallTexture, 12, 70, 260, 35, 35, 1.4F);
-    obstacleArray[12].initObstacle(game.wallTexture, 13, 105, 260, 35, 35, 1.4F);
+    obstacleArray[11].initObstacle(game.wallTexture, 12, 70, 260, 35, 35, 1.41);
+    obstacleArray[12].initObstacle(game.wallTexture, 13, 105, 260, 35, 35, 1.41);
 
-    obstacleArray[13].initObstacle(game.wallTexture, 12, 660, 260, 35, 35, 1.4F);
-    obstacleArray[14].initObstacle(game.wallTexture, 13, 695, 260, 35, 35, 1.4F);
+    obstacleArray[13].initObstacle(game.wallTexture, 12, 660, 260, 35, 35, 1.41);
+    obstacleArray[14].initObstacle(game.wallTexture, 13, 695, 260, 35, 35, 1.41);
 
     //top holes
     obstacleArray[15].initObstacle(game.holeTexture, 9, 370, 136, 35, 87, 4.375F, DEATH_HOLE_L | DEATH_HOLE_R | DEATH_HOLE_D);
     obstacleArray[16].initObstacle(game.holeTexture, 9, 395, 136, 35, 87, 4.375F, DEATH_HOLE_L | DEATH_HOLE_R | DEATH_HOLE_D);
 
     //top platforms
-    obstacleArray[17].initObstacle(game.wallTexture, 12, 295, 220, 35, 35, 1.4F);
-    obstacleArray[18].initObstacle(game.wallTexture, 1, 330, 220, 35, 35, 1.4F);
-    obstacleArray[19].initObstacle(game.wallTexture, 1, 365, 220, 35, 35, 1.4F);
-    obstacleArray[20].initObstacle(game.wallTexture, 1, 400, 220, 35, 35, 1.4F);
-    obstacleArray[21].initObstacle(game.wallTexture, 1, 435, 220, 35, 35, 1.4F);
-    obstacleArray[22].initObstacle(game.wallTexture, 13, 470, 220, 35, 35, 1.4F);
+    obstacleArray[17].initObstacle(game.wallTexture, 12, 295, 220, 35, 35, 1.41);
+    obstacleArray[18].initObstacle(game.wallTexture, 1, 330, 220, 35, 35, 1.41);
+    obstacleArray[19].initObstacle(game.wallTexture, 1, 365, 220, 35, 35, 1.41);
+    obstacleArray[20].initObstacle(game.wallTexture, 1, 400, 220, 35, 35, 1.41);
+    obstacleArray[21].initObstacle(game.wallTexture, 1, 435, 220, 35, 35, 1.41);
+    obstacleArray[22].initObstacle(game.wallTexture, 13, 470, 220, 35, 35, 1.41);
 
     
 
@@ -293,33 +293,33 @@ void Level::loadFourth()
   numObstacles = nObs;
   obstacleArray = new Obstacle[nObs];
   {
-    obstacleArray[0].initObstacle(game.wallTexture, 12, 35, 515, 35, 35, 1.4);
-    obstacleArray[1].initObstacle(game.wallTexture, 1, 70, 515, 35, 35, 1.4);
-    obstacleArray[2].initObstacle(game.wallTexture, 13, 105, 515, 35, 35, 1.4);
+    obstacleArray[0].initObstacle(game.wallTexture, 12, 35, 515, 35, 35, 1.41);
+    obstacleArray[1].initObstacle(game.wallTexture, 1, 70, 515, 35, 35, 1.41);
+    obstacleArray[2].initObstacle(game.wallTexture, 13, 105, 515, 35, 35, 1.41);
 
 
-    obstacleArray[3].initObstacle(game.wallTexture, 12, 345, 465, 35, 35, 1.4);
-    obstacleArray[4].initObstacle(game.wallTexture, 1, 380, 465, 35, 35, 1.4);
-    obstacleArray[5].initObstacle(game.wallTexture, 13, 415, 465, 35, 35, 1.4);
+    obstacleArray[3].initObstacle(game.wallTexture, 12, 345, 465, 35, 35, 1.41);
+    obstacleArray[4].initObstacle(game.wallTexture, 1, 380, 465, 35, 35, 1.41);
+    obstacleArray[5].initObstacle(game.wallTexture, 13, 415, 465, 35, 35, 1.41);
 
  
-    obstacleArray[6].initObstacle(game.wallTexture, 12, 660, 415, 35, 35, 1.4);
-    obstacleArray[7].initObstacle(game.wallTexture, 1, 695, 415, 35, 35, 1.4);
-    obstacleArray[8].initObstacle(game.wallTexture, 13, 730, 415, 35, 35, 1.4);
+    obstacleArray[6].initObstacle(game.wallTexture, 12, 660, 415, 35, 35, 1.41);
+    obstacleArray[7].initObstacle(game.wallTexture, 1, 695, 415, 35, 35, 1.41);
+    obstacleArray[8].initObstacle(game.wallTexture, 13, 730, 415, 35, 35, 1.41);
 
 
-    obstacleArray[9].initObstacle(game.wallTexture, 12, 345, 365, 35, 35, 1.4);
-    obstacleArray[10].initObstacle(game.wallTexture, 1, 380, 365, 35, 35, 1.4);
-    obstacleArray[11].initObstacle(game.wallTexture, 13, 415, 365, 35, 35, 1.4);
+    obstacleArray[9].initObstacle(game.wallTexture, 12, 345, 365, 35, 35, 1.41);
+    obstacleArray[10].initObstacle(game.wallTexture, 1, 380, 365, 35, 35, 1.41);
+    obstacleArray[11].initObstacle(game.wallTexture, 13, 415, 365, 35, 35, 1.41);
 
 
-    obstacleArray[12].initObstacle(game.wallTexture, 12, 35, 315, 35, 35, 1.4);
-    obstacleArray[13].initObstacle(game.wallTexture, 1, 70, 315, 35, 35, 1.4);
-    obstacleArray[14].initObstacle(game.wallTexture, 13, 105, 315, 35, 35, 1.4);
+    obstacleArray[12].initObstacle(game.wallTexture, 12, 35, 315, 35, 35, 1.41);
+    obstacleArray[13].initObstacle(game.wallTexture, 1, 70, 315, 35, 35, 1.41);
+    obstacleArray[14].initObstacle(game.wallTexture, 13, 105, 315, 35, 35, 1.41);
 
-    obstacleArray[15].initObstacle(game.wallTexture, 12, 345, 265, 35, 35, 1.4);
-    obstacleArray[16].initObstacle(game.wallTexture, 1, 380, 265, 35, 35, 1.4);
-    obstacleArray[17].initObstacle(game.wallTexture, 13, 415, 265, 35, 35, 1.4);
+    obstacleArray[15].initObstacle(game.wallTexture, 12, 345, 265, 35, 35, 1.41);
+    obstacleArray[16].initObstacle(game.wallTexture, 1, 380, 265, 35, 35, 1.41);
+    obstacleArray[17].initObstacle(game.wallTexture, 13, 415, 265, 35, 35, 1.41);
   }
 
   numEntities = nEnt;
@@ -373,9 +373,9 @@ void Level::loadFifth()
     obstacleArray[14].initObstacle(game.holeTexture, 9, 146, 443, 24, 60, 3.0F, DEATH_HOLE_L | DEATH_HOLE_R | DEATH_HOLE_D);
 
     //left platform
-    obstacleArray[15].initObstacle(game.wallTexture, 12, 65, 500, 35, 35, 1.4);
-    obstacleArray[16].initObstacle(game.wallTexture, 1, 100, 500, 35, 35, 1.4);
-    obstacleArray[17].initObstacle(game.wallTexture, 13, 135, 500, 35, 35, 1.4);
+    obstacleArray[15].initObstacle(game.wallTexture, 12, 65, 500, 35, 35, 1.41);
+    obstacleArray[16].initObstacle(game.wallTexture, 1, 100, 500, 35, 35, 1.41);
+    obstacleArray[17].initObstacle(game.wallTexture, 13, 135, 500, 35, 35, 1.41);
 
     //
     obstacleArray[18].initObstacle(game.holeTexture, 9, 230, 403, 32, 80, 4.0F, DEATH_HOLE_L | DEATH_HOLE_R | DEATH_HOLE_D);
@@ -432,68 +432,68 @@ void Level::loadSixth()
   obstacleArray = new Obstacle[nObs];
   {  
   //bottom floor
-  obstacleArray[0].initObstacle(game.wallTexture, 12, 205, 510, 35, 35, 1.4F);
-  obstacleArray[1].initObstacle(game.wallTexture, 1, 240, 510, 35, 35, 1.4F);
-  obstacleArray[2].initObstacle(game.wallTexture, 1, 275, 510, 35, 35, 1.4F);
-  obstacleArray[3].initObstacle(game.wallTexture, 1, 310, 510, 35, 35, 1.4F);
-  obstacleArray[4].initObstacle(game.wallTexture, 1, 345, 510, 35, 35, 1.4F);
-  obstacleArray[5].initObstacle(game.wallTexture, 1, 380, 510, 35, 35, 1.4F);
-  obstacleArray[6].initObstacle(game.wallTexture, 1, 415, 510, 35, 35, 1.4F);
-  obstacleArray[7].initObstacle(game.wallTexture, 1, 450, 510, 35, 35, 1.4F);
-  obstacleArray[8].initObstacle(game.wallTexture, 1, 485, 510, 35, 35, 1.4F);
-  obstacleArray[9].initObstacle(game.wallTexture, 1, 520, 510, 35, 35, 1.4F);
-  obstacleArray[10].initObstacle(game.wallTexture, 1, 555, 510, 35, 35, 1.4F);
-  obstacleArray[11].initObstacle(game.wallTexture, 1, 590, 510, 35, 35, 1.4F);
-  obstacleArray[12].initObstacle(game.wallTexture, 1, 625, 510, 35, 35, 1.4F);
-  obstacleArray[13].initObstacle(game.wallTexture, 1, 660, 510, 35, 35, 1.4F);
-  obstacleArray[14].initObstacle(game.wallTexture, 1, 695, 510, 35, 35, 1.4F);
-  obstacleArray[15].initObstacle(game.wallTexture, 10, 730, 510, 35, 35, 1.4F);
+  obstacleArray[0].initObstacle(game.wallTexture, 12, 205, 510, 35, 35, 1.41F);
+  obstacleArray[1].initObstacle(game.wallTexture, 1, 240, 510, 35, 35, 1.41F);
+  obstacleArray[2].initObstacle(game.wallTexture, 1, 275, 510, 35, 35, 1.41F);
+  obstacleArray[3].initObstacle(game.wallTexture, 1, 310, 510, 35, 35, 1.41F);
+  obstacleArray[4].initObstacle(game.wallTexture, 1, 345, 510, 35, 35, 1.41F);
+  obstacleArray[5].initObstacle(game.wallTexture, 1, 380, 510, 35, 35, 1.41F);
+  obstacleArray[6].initObstacle(game.wallTexture, 1, 415, 510, 35, 35, 1.41F);
+  obstacleArray[7].initObstacle(game.wallTexture, 1, 450, 510, 35, 35, 1.41F);
+  obstacleArray[8].initObstacle(game.wallTexture, 1, 485, 510, 35, 35, 1.41F);
+  obstacleArray[9].initObstacle(game.wallTexture, 1, 520, 510, 35, 35, 1.41F);
+  obstacleArray[10].initObstacle(game.wallTexture, 1, 555, 510, 35, 35, 1.41F);
+  obstacleArray[11].initObstacle(game.wallTexture, 1, 590, 510, 35, 35, 1.41F);
+  obstacleArray[12].initObstacle(game.wallTexture, 1, 625, 510, 35, 35, 1.41F);
+  obstacleArray[13].initObstacle(game.wallTexture, 1, 660, 510, 35, 35, 1.41F);
+  obstacleArray[14].initObstacle(game.wallTexture, 1, 695, 510, 35, 35, 1.41F);
+  obstacleArray[15].initObstacle(game.wallTexture, 10, 730, 510, 35, 35, 1.41F);
 
    //right wall
-  obstacleArray[16].initObstacle(game.wallTexture, 6, 730, 475, 35, 35, 1.4F);
-  obstacleArray[17].initObstacle(game.wallTexture, 6, 730, 440, 35, 35, 1.4F);
-  obstacleArray[18].initObstacle(game.wallTexture, 6, 730, 405, 35, 35, 1.4F);
-  obstacleArray[19].initObstacle(game.wallTexture, 6, 730, 370, 35, 35, 1.4F);
+  obstacleArray[16].initObstacle(game.wallTexture, 6, 730, 475, 35, 35, 1.41F);
+  obstacleArray[17].initObstacle(game.wallTexture, 6, 730, 440, 35, 35, 1.41F);
+  obstacleArray[18].initObstacle(game.wallTexture, 6, 730, 405, 35, 35, 1.41F);
+  obstacleArray[19].initObstacle(game.wallTexture, 6, 730, 370, 35, 35, 1.41F);
 
-  obstacleArray[20].initObstacle(game.wallTexture, 6, 730, 335, 35, 35, 1.4F);
+  obstacleArray[20].initObstacle(game.wallTexture, 6, 730, 335, 35, 35, 1.41F);
 
-  obstacleArray[21].initObstacle(game.wallTexture, 6, 730, 300, 35, 35, 1.4F);
-  obstacleArray[22].initObstacle(game.wallTexture, 6, 730, 265, 35, 35, 1.4F);
-  obstacleArray[23].initObstacle(game.wallTexture, 6, 730, 230, 35, 35, 1.4F);
-  obstacleArray[24].initObstacle(game.wallTexture, 6, 730, 195, 35, 35, 1.4F);
+  obstacleArray[21].initObstacle(game.wallTexture, 6, 730, 300, 35, 35, 1.41F);
+  obstacleArray[22].initObstacle(game.wallTexture, 6, 730, 265, 35, 35, 1.41F);
+  obstacleArray[23].initObstacle(game.wallTexture, 6, 730, 230, 35, 35, 1.41F);
+  obstacleArray[24].initObstacle(game.wallTexture, 6, 730, 195, 35, 35, 1.41F);
 
   //roof
-  obstacleArray[25].initObstacle(game.wallTexture, 12, 205, 160, 35, 35, 1.4F);
-  obstacleArray[26].initObstacle(game.wallTexture, 1, 240, 160, 35, 35, 1.4F);
-  obstacleArray[27].initObstacle(game.wallTexture, 1, 275, 160, 35, 35, 1.4F);
-  obstacleArray[28].initObstacle(game.wallTexture, 1, 310, 160, 35, 35, 1.4F);
-  obstacleArray[29].initObstacle(game.wallTexture, 1, 345, 160, 35, 35, 1.4F);
-  obstacleArray[30].initObstacle(game.wallTexture, 1, 380, 160, 35, 35, 1.4F);
-  obstacleArray[31].initObstacle(game.wallTexture, 1, 415, 160, 35, 35, 1.4F);
-  obstacleArray[32].initObstacle(game.wallTexture, 1, 450, 160, 35, 35, 1.4F);
-  obstacleArray[33].initObstacle(game.wallTexture, 1, 485, 160, 35, 35, 1.4F);
-  obstacleArray[34].initObstacle(game.wallTexture, 1, 520, 160, 35, 35, 1.4F);
-  obstacleArray[35].initObstacle(game.wallTexture, 1, 555, 160, 35, 35, 1.4F);
-  obstacleArray[36].initObstacle(game.wallTexture, 1, 590, 160, 35, 35, 1.4F);
-  obstacleArray[37].initObstacle(game.wallTexture, 1, 625, 160, 35, 35, 1.4F);
-  obstacleArray[38].initObstacle(game.wallTexture, 1, 660, 160, 35, 35, 1.4F);
-  obstacleArray[39].initObstacle(game.wallTexture, 1, 695, 160, 35, 35, 1.4F);
-  obstacleArray[40].initObstacle(game.wallTexture, 2, 730, 160, 35, 35, 1.4F);
+  obstacleArray[25].initObstacle(game.wallTexture, 12, 205, 160, 35, 35, 1.41F);
+  obstacleArray[26].initObstacle(game.wallTexture, 1, 240, 160, 35, 35, 1.41F);
+  obstacleArray[27].initObstacle(game.wallTexture, 1, 275, 160, 35, 35, 1.41F);
+  obstacleArray[28].initObstacle(game.wallTexture, 1, 310, 160, 35, 35, 1.41F);
+  obstacleArray[29].initObstacle(game.wallTexture, 1, 345, 160, 35, 35, 1.41F);
+  obstacleArray[30].initObstacle(game.wallTexture, 1, 380, 160, 35, 35, 1.41F);
+  obstacleArray[31].initObstacle(game.wallTexture, 1, 415, 160, 35, 35, 1.41F);
+  obstacleArray[32].initObstacle(game.wallTexture, 1, 450, 160, 35, 35, 1.41F);
+  obstacleArray[33].initObstacle(game.wallTexture, 1, 485, 160, 35, 35, 1.41F);
+  obstacleArray[34].initObstacle(game.wallTexture, 1, 520, 160, 35, 35, 1.41F);
+  obstacleArray[35].initObstacle(game.wallTexture, 1, 555, 160, 35, 35, 1.41F);
+  obstacleArray[36].initObstacle(game.wallTexture, 1, 590, 160, 35, 35, 1.41F);
+  obstacleArray[37].initObstacle(game.wallTexture, 1, 625, 160, 35, 35, 1.41F);
+  obstacleArray[38].initObstacle(game.wallTexture, 1, 660, 160, 35, 35, 1.41F);
+  obstacleArray[39].initObstacle(game.wallTexture, 1, 695, 160, 35, 35, 1.41F);
+  obstacleArray[40].initObstacle(game.wallTexture, 2, 730, 160, 35, 35, 1.41F);
 
   //middle floor
-  obstacleArray[41].initObstacle(game.wallTexture, 12, 205, 335, 35, 35, 1.4F);
-  obstacleArray[42].initObstacle(game.wallTexture, 1, 240, 335, 35, 35, 1.4F);
-  obstacleArray[43].initObstacle(game.wallTexture, 1, 275, 335, 35, 35, 1.4F);
-  obstacleArray[44].initObstacle(game.wallTexture, 1, 310, 335, 35, 35, 1.4F);
-  obstacleArray[45].initObstacle(game.wallTexture, 1, 345, 335, 35, 35, 1.4F);
-  obstacleArray[46].initObstacle(game.wallTexture, 1, 380, 335, 35, 35, 1.4F);
-  obstacleArray[47].initObstacle(game.wallTexture, 1, 415, 335, 35, 35, 1.4F);
-  obstacleArray[48].initObstacle(game.wallTexture, 1, 450, 335, 35, 35, 1.4F);
-  obstacleArray[49].initObstacle(game.wallTexture, 1, 485, 335, 35, 35, 1.4F);
-  obstacleArray[50].initObstacle(game.wallTexture, 1, 520, 335, 35, 35, 1.4F);
-  obstacleArray[51].initObstacle(game.wallTexture, 1, 555, 335, 35, 35, 1.4F);
-  obstacleArray[52].initObstacle(game.wallTexture, 1, 590, 335, 35, 35, 1.4F);
-  obstacleArray[53].initObstacle(game.wallTexture, 13, 625, 335, 35, 35, 1.4F);
+  obstacleArray[41].initObstacle(game.wallTexture, 12, 205, 335, 35, 35, 1.41F);
+  obstacleArray[42].initObstacle(game.wallTexture, 1, 240, 335, 35, 35, 1.41F);
+  obstacleArray[43].initObstacle(game.wallTexture, 1, 275, 335, 35, 35, 1.41F);
+  obstacleArray[44].initObstacle(game.wallTexture, 1, 310, 335, 35, 35, 1.41F);
+  obstacleArray[45].initObstacle(game.wallTexture, 1, 345, 335, 35, 35, 1.41F);
+  obstacleArray[46].initObstacle(game.wallTexture, 1, 380, 335, 35, 35, 1.41F);
+  obstacleArray[47].initObstacle(game.wallTexture, 1, 415, 335, 35, 35, 1.41F);
+  obstacleArray[48].initObstacle(game.wallTexture, 1, 450, 335, 35, 35, 1.41F);
+  obstacleArray[49].initObstacle(game.wallTexture, 1, 485, 335, 35, 35, 1.41F);
+  obstacleArray[50].initObstacle(game.wallTexture, 1, 520, 335, 35, 35, 1.41F);
+  obstacleArray[51].initObstacle(game.wallTexture, 1, 555, 335, 35, 35, 1.41F);
+  obstacleArray[52].initObstacle(game.wallTexture, 1, 590, 335, 35, 35, 1.41F);
+  obstacleArray[53].initObstacle(game.wallTexture, 13, 625, 335, 35, 35, 1.41F);
 
   //bottom floor holes
   obstacleArray[54].initObstacle(game.holeTexture, 13, 330, 450, 24, 60, 3.0F, DEATH_HOLE_L | DEATH_HOLE_U);
@@ -543,9 +543,6 @@ void Level::loadSixth()
 
 
 
-
-
-
 //gold world
 
 void Level::loadSeventh()
@@ -580,30 +577,30 @@ void Level::loadSeventh()
     obstacleArray[7].initObstacle(game.platformTexture, -1, 295, 200, 70, 17, 1.75F, ONE_WAY_LINE);
 
     //center pillar
-    obstacleArray[8].initObstacle(game.wallTexture, 8, 365, 530, 35, 35, 1.4F);
-    obstacleArray[9].initObstacle(game.wallTexture, 10, 400, 530, 35, 35, 1.4F);
-    obstacleArray[10].initObstacle(game.wallTexture, 4, 365, 495, 35, 35, 1.4F);
-    obstacleArray[11].initObstacle(game.wallTexture, 4, 400, 495, 35, 35, 1.4F);
-    obstacleArray[12].initObstacle(game.wallTexture, 4, 365, 460, 35, 35, 1.4F);
-    obstacleArray[13].initObstacle(game.wallTexture, 4, 400, 460, 35, 35, 1.4F);
-    obstacleArray[14].initObstacle(game.wallTexture, 4, 365, 425, 35, 35, 1.4F);
-    obstacleArray[15].initObstacle(game.wallTexture, 4, 400, 425, 35, 35, 1.4F);
-    obstacleArray[16].initObstacle(game.wallTexture, 4, 365, 390, 35, 35, 1.4F);
-    obstacleArray[17].initObstacle(game.wallTexture, 4, 400, 390, 35, 35, 1.4F);
-    obstacleArray[18].initObstacle(game.wallTexture, 4, 365, 355, 35, 35, 1.4F);
-    obstacleArray[19].initObstacle(game.wallTexture, 4, 400, 355, 35, 35, 1.4F);
-    obstacleArray[20].initObstacle(game.wallTexture, 4, 365, 320, 35, 35, 1.4F);
-    obstacleArray[21].initObstacle(game.wallTexture, 4, 400, 320, 35, 35, 1.4F);
-    obstacleArray[22].initObstacle(game.wallTexture, 4, 365, 285, 35, 35, 1.4F);
-    obstacleArray[23].initObstacle(game.wallTexture, 4, 400, 285, 35, 35, 1.4F);
-    obstacleArray[24].initObstacle(game.wallTexture, 4, 365, 250, 35, 35, 1.4F);
-    obstacleArray[25].initObstacle(game.wallTexture, 4, 400, 250, 35, 35, 1.4F);
-    obstacleArray[26].initObstacle(game.wallTexture, 4, 365, 215, 35, 35, 1.4F);
-    obstacleArray[27].initObstacle(game.wallTexture, 4, 400, 215, 35, 35, 1.4F);
-    obstacleArray[28].initObstacle(game.wallTexture, 4, 365, 180, 35, 35, 1.4F);
-    obstacleArray[29].initObstacle(game.wallTexture, 4, 400, 180, 35, 35, 1.4F);
-    obstacleArray[30].initObstacle(game.wallTexture, 0, 365, 145, 35, 35, 1.4F);
-    obstacleArray[31].initObstacle(game.wallTexture, 2, 400, 145, 35, 35, 1.4F);
+    obstacleArray[8].initObstacle(game.wallTexture, 8, 365, 530, 35, 35, 1.41F);
+    obstacleArray[9].initObstacle(game.wallTexture, 10, 400, 530, 35, 35, 1.41F);
+    obstacleArray[10].initObstacle(game.wallTexture, 4, 365, 495, 35, 35, 1.41F);
+    obstacleArray[11].initObstacle(game.wallTexture, 4, 400, 495, 35, 35, 1.41F);
+    obstacleArray[12].initObstacle(game.wallTexture, 4, 365, 460, 35, 35, 1.41F);
+    obstacleArray[13].initObstacle(game.wallTexture, 4, 400, 460, 35, 35, 1.41F);
+    obstacleArray[14].initObstacle(game.wallTexture, 4, 365, 425, 35, 35, 1.41F);
+    obstacleArray[15].initObstacle(game.wallTexture, 4, 400, 425, 35, 35, 1.41F);
+    obstacleArray[16].initObstacle(game.wallTexture, 4, 365, 390, 35, 35, 1.41F);
+    obstacleArray[17].initObstacle(game.wallTexture, 4, 400, 390, 35, 35, 1.41F);
+    obstacleArray[18].initObstacle(game.wallTexture, 4, 365, 355, 35, 35, 1.41F);
+    obstacleArray[19].initObstacle(game.wallTexture, 4, 400, 355, 35, 35, 1.41F);
+    obstacleArray[20].initObstacle(game.wallTexture, 4, 365, 320, 35, 35, 1.41F);
+    obstacleArray[21].initObstacle(game.wallTexture, 4, 400, 320, 35, 35, 1.41F);
+    obstacleArray[22].initObstacle(game.wallTexture, 4, 365, 285, 35, 35, 1.41F);
+    obstacleArray[23].initObstacle(game.wallTexture, 4, 400, 285, 35, 35, 1.41F);
+    obstacleArray[24].initObstacle(game.wallTexture, 4, 365, 250, 35, 35, 1.41F);
+    obstacleArray[25].initObstacle(game.wallTexture, 4, 400, 250, 35, 35, 1.41F);
+    obstacleArray[26].initObstacle(game.wallTexture, 4, 365, 215, 35, 35, 1.41F);
+    obstacleArray[27].initObstacle(game.wallTexture, 4, 400, 215, 35, 35, 1.41F);
+    obstacleArray[28].initObstacle(game.wallTexture, 4, 365, 180, 35, 35, 1.41F);
+    obstacleArray[29].initObstacle(game.wallTexture, 4, 400, 180, 35, 35, 1.41F);
+    obstacleArray[30].initObstacle(game.wallTexture, 0, 365, 145, 35, 35, 1.41F);
+    obstacleArray[31].initObstacle(game.wallTexture, 2, 400, 145, 35, 35, 1.41F);
 
     //ball holes
     obstacleArray[32].initObstacle(game.holeTexture, 8, 383, 118, 33, 27, 3.0F, DEATH_HOLE_L | DEATH_HOLE_R | DEATH_HOLE_U | DEATH_HOLE_D);
@@ -670,29 +667,29 @@ void Level::loadEigth()
   obstacleArray = new Obstacle[nObs];
   {
     //center "pillar"
-    obstacleArray[0].initObstacle(game.wallTexture, 8, 365, 535, 35, 35, 1.4F);
-    obstacleArray[1].initObstacle(game.wallTexture, 10, 400, 535, 35, 35, 1.4F);
-    obstacleArray[2].initObstacle(game.wallTexture, 0, 365, 500, 35, 35, 1.4F);
-    obstacleArray[3].initObstacle(game.wallTexture, 2, 400, 500, 35, 35, 1.4F);
+    obstacleArray[0].initObstacle(game.wallTexture, 8, 365, 535, 35, 35, 1.41F);
+    obstacleArray[1].initObstacle(game.wallTexture, 10, 400, 535, 35, 35, 1.41F);
+    obstacleArray[2].initObstacle(game.wallTexture, 0, 365, 500, 35, 35, 1.41F);
+    obstacleArray[3].initObstacle(game.wallTexture, 2, 400, 500, 35, 35, 1.41F);
 
-    obstacleArray[4].initObstacle(game.wallTexture, 8, 365, 380, 35, 35, 1.4F);
-    obstacleArray[5].initObstacle(game.wallTexture, 10, 400, 380, 35, 35, 1.4F);
-    obstacleArray[6].initObstacle(game.wallTexture, 0, 365, 345, 35, 35, 1.4F);
-    obstacleArray[7].initObstacle(game.wallTexture, 2, 400, 345, 35, 35, 1.4F);
+    obstacleArray[4].initObstacle(game.wallTexture, 8, 365, 380, 35, 35, 1.41F);
+    obstacleArray[5].initObstacle(game.wallTexture, 10, 400, 380, 35, 35, 1.41F);
+    obstacleArray[6].initObstacle(game.wallTexture, 0, 365, 345, 35, 35, 1.41F);
+    obstacleArray[7].initObstacle(game.wallTexture, 2, 400, 345, 35, 35, 1.41F);
 
-    obstacleArray[8].initObstacle(game.wallTexture, 8, 330, 225, 35, 35, 1.4F);
-    obstacleArray[9].initObstacle(game.wallTexture, 10, 435, 225, 35, 35, 1.4F);
-    obstacleArray[10].initObstacle(game.wallTexture, 9, 365, 225, 35, 35, 1.4F);
-    obstacleArray[11].initObstacle(game.wallTexture, 9, 400, 225, 35, 35, 1.4F);
-    obstacleArray[12].initObstacle(game.wallTexture, 9, 365, 190, 35, 35, 1.4F);
-    obstacleArray[13].initObstacle(game.wallTexture, 9, 400, 190, 35, 35, 1.4F);
-    obstacleArray[14].initObstacle(game.wallTexture, 0, 330, 190, 35, 35, 1.4F);
-    obstacleArray[15].initObstacle(game.wallTexture, 2, 435, 190, 35, 35, 1.4F);
+    obstacleArray[8].initObstacle(game.wallTexture, 8, 330, 225, 35, 35, 1.41F);
+    obstacleArray[9].initObstacle(game.wallTexture, 10, 435, 225, 35, 35, 1.41F);
+    obstacleArray[10].initObstacle(game.wallTexture, 9, 365, 225, 35, 35, 1.41F);
+    obstacleArray[11].initObstacle(game.wallTexture, 9, 400, 225, 35, 35, 1.41F);
+    obstacleArray[12].initObstacle(game.wallTexture, 9, 365, 190, 35, 35, 1.41F);
+    obstacleArray[13].initObstacle(game.wallTexture, 9, 400, 190, 35, 35, 1.41F);
+    obstacleArray[14].initObstacle(game.wallTexture, 0, 330, 190, 35, 35, 1.41F);
+    obstacleArray[15].initObstacle(game.wallTexture, 2, 435, 190, 35, 35, 1.41F);
 
-    obstacleArray[16].initObstacle(game.wallTexture, 8, 365, 65, 35, 35, 1.4F);
-    obstacleArray[17].initObstacle(game.wallTexture, 10, 400, 65, 35, 35, 1.4F);
-    obstacleArray[18].initObstacle(game.wallTexture, 0, 365, 30, 35, 35, 1.4F);
-    obstacleArray[19].initObstacle(game.wallTexture, 2, 400, 30, 35, 35, 1.4F);
+    obstacleArray[16].initObstacle(game.wallTexture, 8, 365, 65, 35, 35, 1.41F);
+    obstacleArray[17].initObstacle(game.wallTexture, 10, 400, 65, 35, 35, 1.41F);
+    obstacleArray[18].initObstacle(game.wallTexture, 0, 365, 30, 35, 35, 1.41F);
+    obstacleArray[19].initObstacle(game.wallTexture, 2, 400, 30, 35, 35, 1.41F);
 
 
     //left floor pits
@@ -742,14 +739,14 @@ void Level::loadEigth()
     obstacleArray[46].initObstacle(game.platformTexture, -1, 230, 387, 70, 17, 1.75F, ONE_WAY_LINE);
     obstacleArray[47].initObstacle(game.platformTexture, -1, 265, 387, 70, 17, 1.75F, ONE_WAY_LINE);
 
-    obstacleArray[48].initObstacle(game.wallTexture, 12, 90, 347, 35, 35, 1.4F);
-    obstacleArray[49].initObstacle(game.wallTexture, 13, 125, 347, 35, 35, 1.4F);
+    obstacleArray[48].initObstacle(game.wallTexture, 12, 90, 347, 35, 35, 1.41F);
+    obstacleArray[49].initObstacle(game.wallTexture, 13, 125, 347, 35, 35, 1.41F);
 
-    obstacleArray[50].initObstacle(game.wallTexture, 12, 90, 257, 35, 35, 1.4F);
-    obstacleArray[51].initObstacle(game.wallTexture, 13, 125, 257, 35, 35, 1.4F);
+    obstacleArray[50].initObstacle(game.wallTexture, 12, 90, 257, 35, 35, 1.41F);
+    obstacleArray[51].initObstacle(game.wallTexture, 13, 125, 257, 35, 35, 1.41F);
 
-    obstacleArray[52].initObstacle(game.wallTexture, 12, 90, 167, 35, 35, 1.4F);
-    obstacleArray[53].initObstacle(game.wallTexture, 13, 125, 167, 35, 35, 1.4F);
+    obstacleArray[52].initObstacle(game.wallTexture, 12, 90, 167, 35, 35, 1.41F);
+    obstacleArray[53].initObstacle(game.wallTexture, 13, 125, 167, 35, 35, 1.41F);
 
   }
 
@@ -800,8 +797,6 @@ void Level::loadNinth()
   game.player = new Player(game.playerTexture, 387, floorY-20, 20, 20, -1);
 
 }
-
-
 
 
 void Level::initializeLevel()

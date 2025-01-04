@@ -15,7 +15,7 @@ adamTexture::adamTexture()
 
 adamTexture::~adamTexture()
 {
-    free();
+  free();
 }
 
 void adamTexture::free()
@@ -48,11 +48,9 @@ bool adamTexture::loadFromFile(std::string path, SDL_Renderer* renderer)
 
 }
 
-bool adamTexture::loadFromText(char* text, SDL_Color textColor, SDL_Renderer* renderer, TTF_Font* font)
+/*bool adamTexture::loadFromText(char* text, SDL_Color textColor, SDL_Renderer* renderer, TTF_Font* font)
 {
     free();
-
-    //SDL_Color bgColor = {0,0,0,0};
     
     SDL_Surface* tmpSurface = TTF_RenderUTF8_Blended(font, text, textColor);
 
@@ -76,9 +74,9 @@ bool adamTexture::loadFromText(char* text, SDL_Color textColor, SDL_Renderer* re
     SDL_SetTextureScaleMode(texture, SDL_ScaleModeBest);
     
     return true;
-}
+} */
 
-void adamTexture::render(int x, int y, SDL_Renderer* renderer, float stretchFactor, SDL_Rect* clip, double angle, SDL_Point center, SDL_Color colorMod)
+void adamTexture::render(int x, int y, SDL_Renderer* renderer, double stretchFactor, SDL_Rect* clip, double angle, SDL_Point center, SDL_Color colorMod)
 {
     
 
@@ -134,8 +132,11 @@ GameWindow::GameWindow()
 {
   window = NULL;
   renderer = NULL;
-  font = NULL;
-  initAll(800, 600, &window, &renderer, &font);
+  initAll(800, 600, &window, &renderer);
+
+
+  //font = NULL;
+  //initAll(800, 600, &window, &renderer, &font);
 
 }
 
@@ -187,11 +188,11 @@ SDL_Window* ainitWindow(std::string windowName, int SCREEN_WIDTH, int SCREEN_HEI
   }
 
   //Initialize SDL_ttf
-  if(TTF_Init() == -1)
+  /*if(TTF_Init() == -1)
   {
     printf( "SDL_ttf initialization failed\n");
     return NULL;
-  }
+  } */
     
 
     return tempWindow;
@@ -218,7 +219,7 @@ SDL_Renderer* ainitRenderer(SDL_Window* window, bool vsync)
 
 
 
-void initAll(int SCREENW, int SCREENH, SDL_Window** window, SDL_Renderer** renderer, TTF_Font** font)
+/*void initAll(int SCREENW, int SCREENH, SDL_Window** window, SDL_Renderer** renderer, TTF_Font** font)
 {
   
   std::string fontString = "assets/Arial.ttf";
@@ -238,6 +239,20 @@ void initAll(int SCREENW, int SCREENH, SDL_Window** window, SDL_Renderer** rende
 
   
   
+} */
+
+void initAll(int SCREENW, int SCREENH, SDL_Window** window, SDL_Renderer** renderer)
+{
+  
+  std::string fontString = "assets/Arial.ttf";
+
+  *window = ainitWindow("Test Game", SCREENW, SCREENH);
+  if(window == NULL)
+      exit(1);
+
+  *renderer = ainitRenderer(*window);
+  if(renderer == NULL)
+      exit(1);  
 }
 
 void aSDL_Close()
@@ -248,7 +263,6 @@ void aSDL_Close()
 
     SDL_Quit();
     IMG_Quit();
-    TTF_Quit();
 }
 
 
