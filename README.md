@@ -1,6 +1,5 @@
 Vertical Pool!
 
-Compile with make linux / windows
+Compile with make
 
-Note: 
-Windows is currently bugged. The textures are rendering incorrectly and I have not found another soul with the same issue.
+Its a quite hard game. Don't be afraid to drag the poolstick with lots of strength, and be prepared to restart quite a bit.
